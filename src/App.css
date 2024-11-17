@@ -1,13 +1,25 @@
-h1 {
-  background-color: black;
-  color: white;
-  text-align: center;
+body {
+  margin: 0;
 }
 
-.amountManager{
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  height: 80px;
+}
+
+.amountManager {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.calcProbability {
+  margin-bottom: 8px;
 }
 
 .amountOperationButtons {
@@ -16,6 +28,15 @@ h1 {
   margin-top: 16px;
 }
 
-.decrementLiveAmount{
+.decrementLiveAmount {
   margin-right: 24px;
+}
+
+.reverseButton {
+  display: block;
+  margin: 16px auto;
+}
+
+.resetButton{
+  margin: 24px auto;
 }

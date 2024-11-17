@@ -1,0 +1,21 @@
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.amountManager{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.amountOperationButtons {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.decrementLiveAmount{
+  margin-right: 24px;
+}

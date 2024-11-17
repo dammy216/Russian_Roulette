@@ -1,0 +1,13 @@
+.displayContainer {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.liveBullets {
+  margin-right: 24px;
+}
+
+select {
+  width: 100px;
+}

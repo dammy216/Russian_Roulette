@@ -12,9 +12,9 @@ const DisplayAmount = (props: Props) => {
     <div>
       <div className="displayContainer">
         <div className="liveBullets">
-          <label htmlFor="">実弾：</label>
+          <label htmlFor="">実包：</label>
           <select
-            name="実弾"
+            name="実包"
             value={props.liveAmount}
             onChange={(e) => props.setLiveAmount(Number(e.target.value))}
           >

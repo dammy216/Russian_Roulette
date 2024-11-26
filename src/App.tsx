@@ -40,7 +40,7 @@ function App() {
   return (
     <div className="main">
       <header>
-        <h1>BackShot Roulette</h1>
+        <h1>BuckShot Roulette</h1>
       </header>
       <div className="amountManager">
         <label className="calcProbability">
